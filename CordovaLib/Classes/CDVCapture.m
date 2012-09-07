@@ -778,7 +778,7 @@
 }
 - (void) updateTime
 {
-    // update the label with the ellapsed time
+    // update the label with the elapsed time
     [self.timerLabel setText:[self formatTime: self.avRecorder.currentTime]];
     
 }
