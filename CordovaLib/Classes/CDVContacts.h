@@ -72,7 +72,7 @@
  *
  * arguments:
  *  1: successcallback - this is the javascript function that will be called with the array of found contacts
- *  2:  errorCallback - optional javascript functiont to be called in the event of an error with an error code.
+ *  2:  errorCallback - optional javascript function to be called in the event of an error with an error code.
  * options:  dictionary containing ContactFields and ContactFindOptions 
  *	fields - ContactFields array
  *  findOptions - ContactFindOptions object as dictionary
