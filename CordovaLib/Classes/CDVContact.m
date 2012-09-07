@@ -747,7 +747,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 +(NSString*) convertPropertyLabelToContactType: (NSString*)label
 {
 	NSString* type = nil;
-	if (label != nil){  // improve effieciency......
+	if (label != nil){  // improve efficiency......
 		if ([label isEqualToString:(NSString*)kABPersonPhoneMobileLabel]){
 			type = kW3ContactPhoneMobileLabel;
 		}else if ([label isEqualToString: (NSString*)kABPersonPhoneHomeFAXLabel] || 
