@@ -1052,7 +1052,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 			value = (__bridge_transfer NSString*)ABRecordCopyCompositeName(self.record);
 			[newName setObject: (value != nil) ? value : [NSNull null] forKey: kW3ContactFormattedName];
 		}else {
-			//W3CtoAB returns NSNumber for AB name properies, get intValue and cast to ABPropertyID)
+			//W3CtoAB returns NSNumber for AB name properties, get intValue and cast to ABPropertyID)
 			value = (__bridge_transfer NSString*)ABRecordCopyValue(self.record, (ABPropertyID)[[[CDVContact defaultW3CtoAB] valueForKey:i] intValue]);
 			[newName setObject: (value != nil) ? value : [NSNull null] forKey: (NSString*)i];
 		}
