@@ -115,7 +115,7 @@ static CFIndex WriteDataToStream(NSData* data, CFWriteStreamRef stream) {
 
 - (NSURLRequest*) requestForUploadCommand:(CDVInvokedUrlCommand *)command fileData:(NSData *)fileData {
     // arguments order from js: [filePath, server, fileKey, fileName, mimeType, params, debug, chunkedMode]
-    // however, params is a JavaScript object and during marshalling is put into the options dict, 
+    // however, params is a JavaScript object and during marshaling is put into the options dict, 
     // thus debug and chunkedMode are the 6th and 7th arguments
     NSArray* arguments = command.arguments;
     NSString* target = (NSString*)[arguments objectAtIndex:0];
