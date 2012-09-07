@@ -703,7 +703,7 @@ extern NSString * const NSURLIsExcludedFromBackupKey __attribute__((weak_import)
 	[self doCopyMove:command isCopy:NO];
 }
 /**
- * Helpfer function to check to see if the user attempted to copy an entry into its parent without changing its name, 
+ * Helper function to check to see if the user attempted to copy an entry into its parent without changing its name,
  * or attempted to copy a directory into a directory that it contains directly or indirectly.
  * 
  * IN: 
