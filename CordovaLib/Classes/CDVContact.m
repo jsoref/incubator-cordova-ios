@@ -1062,7 +1062,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 	
 }
 
-/* Create array of Dictionaris to match JavaScript ContactField object for simple multiValue properties phoneNumbers, emails
+/* Create array of Dictionaries to match JavaScript ContactField object for simple multiValue properties phoneNumbers, emails
  * Input: (NSString*) W3Contact Property name
  * type
  *		for phoneNumbers type is one of (work,home,other, mobile, fax, pager)
@@ -1115,7 +1115,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 	return valuesArray;
 	
 }
-/* Create array of Dictionaris to match JavaScript ContactAddress object for addresses
+/* Create array of Dictionaries to match JavaScript ContactAddress object for addresses
  *  pref - not supported
  *  type - address type
  *	formatted  - formatted for mailing label (what about localization?)
@@ -1235,7 +1235,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 		CFRelease(multi);
 	return imArray;
 }
-/* Create array of Dictionaris to match JavaScript ContactOrganization object
+/* Create array of Dictionaries to match JavaScript ContactOrganization object
  *	pref - not supported in iOS
  *  type - not supported in iOS
  *  name
@@ -1648,7 +1648,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 /* search for values within MultiValue Dictionary properties Address or IM property
  * IN:
  * (NSArray*) fields - the array of W3C field names to search within
- * (ABPropertyID) propId - the AddressBook property that returns a multivalue dictionaty 
+ * (ABPropertyID) propId - the AddressBook property that returns a multivalue dictionary 
  * (NSString*) testValue - the string to search for within the specified fields
  *
  */

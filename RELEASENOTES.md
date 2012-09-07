@@ -70,7 +70,7 @@ Cordova is a static library that enables developers to include the Cordova API i
 * Add a benchmark into CordovaLibApp for measuring exec() speed.
 * Added Echo plugin (for benchmarking) into CordovaLib
 * Support JS->Native messages via an XHR & URL Protocol see [CB-593]
-* Refactor peoplePickerNavigationControllerDidCancel, always return dictionnary with id kABRecordInvalidID.
+* Refactor peoplePickerNavigationControllerDidCancel, always return dictionary with id kABRecordInvalidID.
 * Deployment target for CordovaLib was not updated to 4.2 (we changed it in the template, but not the lib)
 
 <br />
