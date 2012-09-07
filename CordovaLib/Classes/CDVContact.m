@@ -380,7 +380,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
  * aValue - the value to set into the address book (code checks for null or [NSNull null]
  * aProperty - AddressBook property ID
  * aRecord - the record to update
- * bUpdate - whether this is a possible update vs a new enry
+ * bUpdate - whether this is a possible update vs a new entry
  * RETURN 
  *	true - property was set (or input value as null)
  *	false - property was not set
