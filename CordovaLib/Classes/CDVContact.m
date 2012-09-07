@@ -314,7 +314,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 		[self setValue: aDate != nil ? aDate : ms forProperty: kABPersonBirthdayProperty inRecord: person asUpdate: bUpdate];
 	}
 	// don't update creation date
-	// modifiction date will get updated when save
+	// modification date will get updated when save
 	// anniversary is removed from W3C Contact api Dec 9, 2010 spec - don't waste time on it yet
 		
 	//kABPersonDateProperty
