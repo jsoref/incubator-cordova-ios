@@ -393,7 +393,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 	if (aValue && ![aValue isKindOfClass:[NSNull class]]){
 		if (bUpdate && ([aValue isKindOfClass:[NSString class]] &&  [aValue length] == 0)) { // if updating, empty string means to delete
 			aValue = NULL;
-		} // really only need to set if different - more efficient to just update value or compare and only set if necessay???
+		} // really only need to set if different - more efficient to just update value or compare and only set if necessary???
 		bSuccess = ABRecordSetValue(aRecord, aProperty, (__bridge CFTypeRef) aValue, &error);
 		if (!bSuccess){
 			NSLog(@"error setting %d property", aProperty);
