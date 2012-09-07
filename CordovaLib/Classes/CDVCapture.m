@@ -164,7 +164,7 @@
        data = UIImageJPEGRepresentation(image, 0.5);
     }
     
-    // write to temp directory and reutrn URI
+    // write to temp directory and return URI
     NSString* docsPath = [NSTemporaryDirectory() stringByStandardizingPath];  // use file system temporary directory
     NSError* err = nil;
     NSFileManager* fileMgr = [[NSFileManager alloc] init]; 
