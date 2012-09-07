@@ -233,7 +233,7 @@ Cordova is a static library that enables developers to include the Cordova API i
 * Added unification of accelerometer values on ios (based on android values)
 * Removed old JS, added cordova-js version
 * Changes to CordovaLib makefile for generating JS
-* Fixed CB-260: Can't install Phonegap with new Xcode 4.3
+* Fixed CB-260: Can't install PhoneGap with new Xcode 4.3
 * Fixed Xcode app detection (using Spotlight) in Makefile
 * Fixed CB-306 - Remove extra template App delegate methods
 * Fixes CB-255 - iOS: a parameter with value 'null' is not passed to 'arguments' array
