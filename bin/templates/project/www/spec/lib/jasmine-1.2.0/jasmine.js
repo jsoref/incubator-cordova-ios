@@ -1282,7 +1282,7 @@ jasmine.Matchers.prototype.toBeNull = function() {
 };
 
 /**
- * Matcher that boolean not-nots the actual.
+ * Matcher that boolean double-negates the actual.
  */
 jasmine.Matchers.prototype.toBeTruthy = function() {
   return !!this.actual;
@@ -1290,7 +1290,7 @@ jasmine.Matchers.prototype.toBeTruthy = function() {
 
 
 /**
- * Matcher that boolean nots the actual.
+ * Matcher that boolean negates the actual.
  */
 jasmine.Matchers.prototype.toBeFalsy = function() {
   return !this.actual;
