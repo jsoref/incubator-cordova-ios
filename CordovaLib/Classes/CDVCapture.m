@@ -453,7 +453,7 @@
 }
 /* Called when image/movie is finished recording.
  * Calls success or error code as appropriate
- * if successful, result  contains an array (with just one entry since can only get one image unless build own camera UI) of MediaFile object representating the image 
+ * if successful, result  contains an array (with just one entry since can only get one image unless build own camera UI) of MediaFile object representing the image
  *      name
  *      fullPath
  *      type
