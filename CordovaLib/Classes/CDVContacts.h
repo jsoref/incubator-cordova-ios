@@ -68,7 +68,7 @@
 					 property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifierForValue;
 
 /*
- * search - searchs for contacts.  Only person records are currently supported.
+ * search - searches for contacts.  Only person records are currently supported.
  *
  * arguments:
  *  1: successcallback - this is the javascript function that will be called with the array of found contacts
