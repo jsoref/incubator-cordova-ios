@@ -142,7 +142,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 				[NSNull null], kW3ContactFieldValue,
 				[NSNull null], kW3ContactFieldPrimary,
 				[NSNull null], kW3ContactFieldId,
-				[NSNumber numberWithInt: kABPersonOrganizationProperty], kW3ContactOrganizationName, /* careful, name is used mulitple times*/
+				[NSNumber numberWithInt: kABPersonOrganizationProperty], kW3ContactOrganizationName, /* careful, name is used multiple times*/
 				nil];
 	}
 	return org_apache_cordova_contacts_W3CtoAB;
