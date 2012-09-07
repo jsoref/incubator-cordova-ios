@@ -870,7 +870,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
 		return nc;
 	}
     if ([self.returnFields objectForKey:kW3ContactDisplayName]){
-        // diplayname requested -  iOS doesn't have so return null
+        // displayname requested -  iOS doesn't have so return null
         [nc setObject: [NSNull null] forKey:kW3ContactDisplayName];
         // may overwrite below if requested ContactName and there are no values
     }
