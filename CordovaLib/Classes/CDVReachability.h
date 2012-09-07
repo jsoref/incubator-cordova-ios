@@ -1,7 +1,7 @@
 /*
  
  File: Reachability.h
- Abstract: Basic demonstration of how to use the SystemConfiguration Reachablity APIs.
+ Abstract: Basic demonstration of how to use the SystemConfiguration Reachability APIs.
  
  Version: 2.2
  
