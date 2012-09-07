@@ -388,7 +388,7 @@ Removed GetFunctionName.js (unused)
 * usage of VERIFY_ARGUMENTS macro in File plugin - related to #244
 * fixed #259: PluginResult toJSONString does not quote strings in arrays
 * added ability so that unhanded URLs (i.e. custom schemes in a web-page) will notify PhoneGap plugins of this custom url so that the plugins can handle it themselves. This would give the ability to handle callbacks for OAuth logins (Twitter/Facebook) in the main PhoneGap UIWebview, and not require the ChildBrowser plugin.
-* fixes #263 Phone call - tel: scheme handling hides default behaviour
+* fixes #263 Phone call - tel: scheme handling hides default behavior
 * fixes #269 - Add Obj-C unit-tests for whitelist implementation
 * fixed #256 PhoneGapDelegate (UIApplicationDelegate) property hides new property in iOS 5
 * fixed #254 Prefix the SBJSON classes included in PhoneGap with 'PG'
