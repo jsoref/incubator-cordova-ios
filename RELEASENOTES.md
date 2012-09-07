@@ -38,7 +38,7 @@ Cordova is a static library that enables developers to include the Cordova API i
 * [CB-274] iOS Cordova Template Project is not compilable with default Apple's ARC compiler 3.0
 * [CB-593] Click and touch events do not fire after using scroll CSS
 * [CB-675] Allow multiple versions of PhoneGap to be installed in Xcode (added bin/update_cordova_subproject script)
-* [CB-828] iOS contact.save() stucks the UI from updating on heavy load & has memory leaks.
+* [CB-828] iOS contact.save() stops the UI from updating on heavy load & has memory leaks.
 * [CB-903] iOS 6 - add setting to set WebKitStoreWebDataForBackup for user defaults from Cordova.plist/config.xml
 * [CB-904] iOS 6 - turn off CDVLocalStorage core plugin when on iOS 6
 * [CB-994] CDVLocalStorage core plugin does not fully backup when app setting "Application does not run in background" is YES
