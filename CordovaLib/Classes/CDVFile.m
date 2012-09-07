@@ -624,7 +624,7 @@ extern NSString * const NSURLIsExcludedFromBackupKey __attribute__((weak_import)
 	[self writeJavascript:jsString];
 
 }
-/* recurvsively removes the directory 
+/* recursively removes the directory
  * IN: 
  * NSArray* arguments
  *	0 - NSString* fullPath
