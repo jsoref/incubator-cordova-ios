@@ -35,7 +35,7 @@
 {
 	// TODO: currently only iPhone 4 has support for gyro. We would only need to fill in support for iOS 4.0 and 4.1 
 	// (since the DeviceOrientationEvent is supported in in 4.2 for UIWebView)
-	// If gyro is available (see CMMotionManagerin CoreMotion.framework) AND !isDeviceOrientationAvailable, we pump out the events
+	// If gyro is available (see CMMotionManager in CoreMotion.framework) AND !isDeviceOrientationAvailable, we pump out the events
 }
 
 - (CDVPlugin*) initWithWebView:(UIWebView*)theWebView
