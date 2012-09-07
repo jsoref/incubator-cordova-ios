@@ -290,7 +290,7 @@ static NSSet* org_apache_cordova_validArrowDirections;
             // get the temp directory path
             NSString* docsPath = [NSTemporaryDirectory() stringByStandardizingPath];
             NSError* err = nil;
-            NSFileManager* fileMgr = [[NSFileManager alloc] init]; //recommended by apple (vs [NSFileManager defaultManager]) to be theadsafe
+            NSFileManager* fileMgr = [[NSFileManager alloc] init]; //recommended by apple (vs [NSFileManager defaultManager]) to be threadsafe
             
             // generate unique file name
             NSString* filePath;
