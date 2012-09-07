@@ -84,7 +84,7 @@
  *
  * arguments:
  *  1: success callback - this is the javascript function that will be called with the JSON representation of the saved contact
- *		search calls a fixed navigator.service.contacts._findCallback which then calls the succes callback stored before making the call into obj. c
+ *		search calls a fixed navigator.service.contacts._findCallback which then calls the success callback stored before making the call into obj. c
  *  
  */
 - (void) save:(CDVInvokedUrlCommand*)command;

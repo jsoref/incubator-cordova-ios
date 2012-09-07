@@ -206,7 +206,7 @@
             bError = [self prepareToPlay:audioFile withId:mediaId];
 		}	
 		if (!bError){
-			// audioFile.player != nil  or player was sucessfully created
+			// audioFile.player != nil  or player was successfully created
             // get the audioSession and set the category to allow Playing when device is locked or ring/silent switch engaged
             if ([self hasAudioSession]) {
                 NSError* __autoreleasing err = nil;
