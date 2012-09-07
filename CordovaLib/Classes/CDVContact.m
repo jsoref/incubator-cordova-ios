@@ -452,7 +452,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
  * ABRecordRef  person - the record to set values into
  * BOOL bUpdate - whether or not to update date or set as new.  
  *	When updating:
- *	  emtpy array indicates to remove entire property
+ *	  empty array indicates to remove entire property
  *	  empty string indicates to remove
  *    [NSNull null] do not modify (keep existing record value)
  * RETURNS
@@ -582,7 +582,7 @@ static NSDictionary*	org_apache_cordova_contacts_defaultFields = nil;
  * ABRecordRef person - the record to set the values into
  * BOOL bUpdate - YES if this is an update to an existing record
  *	When updating:
- *	  emtpy array indicates to remove entire property
+ *	  empty array indicates to remove entire property
  *	  value/label == "" indicates to remove
  *    value/label == [NSNull null] do not modify (keep existing record value) 
  * RETURN
